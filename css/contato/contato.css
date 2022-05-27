@@ -14,6 +14,7 @@
 }
 
 .contato-dados {
+  border-radius: 5px 0 0 5px;
   background: var(--cor-12);
 }
 
@@ -22,10 +23,14 @@
   background: var(--cor-0);
 }
 
+.contato-dados h2 {
+  margin-bottom: 60px;
+}
+
 .contato-endereco {
   margin-bottom: 32px;
-  background: url("../../img/icones/local.svg") no-repeat 0px 2px;
   padding-left: 28px;
+  background: url("../../img/icones/local.svg") no-repeat 0px 2px;
 }
 
 .contato-endereco p {
@@ -38,6 +43,7 @@
   margin-bottom: 8px;
   padding-left: 28px;
 }
+
 .contato-meios a:hover {
   color: var(--cor-0);
 }
@@ -73,7 +79,7 @@
     border-radius: 5px 5px 0 0;
   }
   .contato-formulario {
-    border-radius: 0px 0px 5px 5px;
+    border-radius: 0 0 5px 5px;
   }
   .contato-dados h2,
   .contato-meios a:nth-child(3) {
